@@ -3,7 +3,7 @@
     "tslint-defocus"
   ],
   "rulesDirectory": [
-    "codelyzer"
+    "./dist"
   ],
   "rules": {
     "no-any": true,
@@ -122,6 +122,7 @@
     "component-class-suffix": false,
     "directive-class-suffix": false,
     "no-access-missing-member": false,
-    "defocus": true
+    "defocus": true,
+    "finnish-notation": true
   }
 }
