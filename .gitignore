@@ -65,4 +65,4 @@ typings/
 *.iml
 
 #idea
-/.dist/*
+/dist/*
