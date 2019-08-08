@@ -60,9 +60,9 @@ typings/
 # next.js build output
 .next
 
-#idea
+# idea
 /.idea/*
 *.iml
 
-#idea
+# Build output
 /dist/*

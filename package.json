@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "release": "tsc && npm version minor && git push --all && npm publish"
+    "release": "npm run-script build && npm version minor && git push --all && npm publish"
   },
   "author": "",
   "license": "MIT",

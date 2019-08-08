@@ -34,7 +34,7 @@ describe('FinnishNotationRule', () => {
     expect(failures.length).toBe(0);
   });
 
-  it(`should not mark suffixed nonobservable property`, () => {
+  it(`should not mark not suffixed nonobservable property`, () => {
     const src = `
         export class TestClass {
           test: Object = new Object();

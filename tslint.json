@@ -3,7 +3,8 @@
     "tslint-defocus"
   ],
   "rulesDirectory": [
-    "./dist"
+    "./dist",
+    "codelyzer"
   ],
   "rules": {
     "no-any": true,
