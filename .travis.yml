@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "10"
 script:
-- npm test
-- npm run-script build
+  - npm test
+  - npm run-script build
 before_deploy:
   - git config --local user.name "Travis"
   - git config --local user.email "grzegorz.lipecki@gmail.com"
@@ -15,7 +15,8 @@ deploy:
   skip_cleanup: true
   provider: npm
   email: grzegorz.lipecki@gmail.com
+  edge: true
   api_key:
-    secure: ${NPM_TOKEN}
+    secure: "NPM_TOKEN"
   on:
     branch: master
