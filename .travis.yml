@@ -17,6 +17,6 @@ deploy:
   email: grzegorz.lipecki@gmail.com
   edge: true
   api_key:
-    secure: "NPM_TOKEN"
+    secure: "$NPM_TOKEN"
   on:
     branch: master
